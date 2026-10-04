@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> 
+    .center {
+margin: auto;
+width: 40%;
+border: 5px solid #FFFF00;
+padding: 10px;
+}
+.head
+    {
+      text-align: center;
+      color: blueviolet;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: normal;
+      text-decoration: underline;
+    }
+    input[type=button] 
+    {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;  
+      align-self: center;
+      text-align: center;
+    }     
+    </style>
+</head>
+
+  <body style ="background-color: aquamarine;">
+    <h1 class = "head">INFORMATION RETRIEVAL SYSTEM</h1>
+
+    <div class="center">
+        
+        <img src="{{ url_for('video') }}" width="100%"/>
+    </div> 
+    <br>
+    <center><input type="button" onclick="location.href='display';"  value="Get information" /></center>
+    </body>
+
+
+</html>

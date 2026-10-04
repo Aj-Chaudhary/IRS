@@ -1,0 +1,28 @@
+By -  P. Vishnu Vardhan
+
+Instructions to run the Information Retrieval System:
+
+Step 1: Download the entire "IRS" folder
+
+Step 2: Open anaconda and create a new environment in Python 3.6.x
+
+Step 3: Open the terminal in the new environment and navigate to the IRS folder and 
+	  install the required libraries using the command: pip install -r requirements.txt
+
+Step 4: make sure cmake is already installed.
+        install dlib by running the following command: pip install https://files.pythonhosted.org/packages/5b/fa/65bad0783fe624f463ec3c46c0bc062d281ee33c032b3047d99ffcefc9f5/dlib-19.6.0-cp36-cp36m-win_amd64.whl#sha256=cf352921cf8ec79f3ff85868f70e6397bcbd41a265acbb410f00bf9342e28d19
+        or go to the link https://pypi.org/simple/dlib/ and copy paste the correct version whl file for python 3.6
+
+Step 5: Now we are ready to run the program
+
+-->To add new faces from the webcam, run the Image_Dataset_Generator.py file. It will ask for the name and then opens the webcam to scan the face
+then the face data is going to get stored in the images folder.
+
+-->To perform only face detection, run the face_recognizer.py file 
+
+-->To run the web application:
+	Firstly add the data of the person in the MongoDB. Then edit the username and password in the webapp2.0.py file to connect to your
+	database.
+	Now, run the webapp2.0.py
+	It will execute and give an address. 
+	copy that address and paste it in a web browser and the web app will open.

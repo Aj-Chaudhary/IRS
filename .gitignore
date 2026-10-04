@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+*.env
+
+# Large ML model/data files
+shape_predictor_68_face_landmarks.dat
+*.h5
+*.hdf5
+
+# Face/person image dataset
+images/

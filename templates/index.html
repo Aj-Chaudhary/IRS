@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Information Retrieval System</title>
+  <style>
+    .head
+    {
+      text-align: center;
+      color: blueviolet;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: normal;
+      text-decoration: underline;
+    }
+    .bd
+    {
+      background-color: aquamarine;
+
+    }
+    p
+    {
+      text-align: center;
+      color: crimson;
+
+    }
+    .pic
+    {
+      align-self: center;
+      text-align: center;
+    }
+    .center 
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    } 
+    input[type=button] 
+    {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;  
+    }
+  </style>
+</head>
+  <body class="bd">
+    <h1 class = "head">INFORMATION RETRIEVAL SYSTEM</h1>
+    <div class = "pic">
+      <img src="{{url_for('static', filename='templatepic.jpg')}}" align="middle" />
+    </div>
+    <div class="pic">
+      <p class = "center">Click the button below to scan the face</p>
+        <input type="button" onclick="location.href='livestream';"  value="Scan face" />
+    </div>
+            
+    </body>
+
+
+</html>
